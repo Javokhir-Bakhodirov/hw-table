@@ -1,0 +1,19 @@
+.site-table{
+    border: 2px solid green;
+    width: 50%;
+}
+
+.site-table>tr>td{
+    border: 2px solid green;
+}
+
+.container{
+    width: 1250px;
+    margin: 200px auto;
+}
+
+th, td{
+    text-align: center;
+    padding: 5px 0;
+}
+
