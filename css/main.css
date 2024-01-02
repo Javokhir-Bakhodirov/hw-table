@@ -46,4 +46,41 @@ tr > td {
 .table2__body {
   background: rgb(255, 255, 255);
   background: linear-gradient(249deg, rgba(255, 255, 255, 0.4220281863) 4%, rgba(255, 255, 255, 0.4752494748) 53%, rgba(255, 255, 255, 0.4752494748) 93%);
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  margin-top: 25px;
+  background-color: orange;
+  border: 1px solid green;
+  border-radius: 8px;
+  padding: 7px 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table2__link {
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  margin-top: 25px;
+  background-color: #434c7c;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 7px 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  color: aliceblue;
+}
+
+.back {
+  transform: rotate(180deg);
 }/*# sourceMappingURL=main.css.map */

@@ -55,3 +55,40 @@ tr > td {
     rgba(255, 255, 255, 0.47524947478991597) 93%
   );
 }
+
+a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  margin-top: 25px;
+  background-color: orange;
+  border: 1px solid green;
+  border-radius: 8px;
+  padding: 7px 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table2__link {
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  margin-top: 25px;
+  background-color: #434c7c;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 7px 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  color: aliceblue;
+}
+
+.back {
+  transform: rotate(180deg);
+}
